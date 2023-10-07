@@ -52,11 +52,13 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  overflow: auto;
 }
 
 .chat__board-form {
   width: 100%;
   height: 20%;
+  margin-top: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
