@@ -1,0 +1,106 @@
+.chat {
+  width: 85%;
+  height: 85%;
+  position: relative;
+  display: flex;
+  color: #e8f1e3;
+  background-color: #0787c7;
+  border: 3px solid #62c0e6;
+  border-radius: 4px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.chat__online {
+  width: 30%;
+  height: 100%;
+  padding: 20px;
+  background-color: #0787c7;
+  border-right: 3px solid #62c0e6;
+}
+
+.chat__online-label {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.chat__online-list {
+  overflow: auto;
+}
+
+.chat__online-name {
+  margin-bottom: 7px;
+}
+
+.chat__online-name_you {
+  font-weight: 500;
+  color: #f0ab81;
+}
+
+.chat__board {
+  width: calc(70% - 3px);
+  height: 100%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #057bb6;
+  overflow: auto;
+}
+
+.chat__board-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat__board-form {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0787c7;
+  border: 3px solid #62c0e6;
+  border-radius: 4px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+  rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.chat__board-form-textarea {
+  width: 70%;
+  height: 60px;
+  padding: 5px 10px;
+  margin-right: 20px;
+  font-size: 16px;
+  color: #717171;
+  border: none;
+  border-radius: 4px;
+  background: #e8f1e3;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  resize: none;
+}
+
+.chat__board-form-textarea:focus {
+  outline: none;
+}
+
+.chat__board-form-button {
+  padding: 10px 15px;
+  border: none;
+  color: #717171;
+  border-radius: 4px;
+  background: #e8f1e3;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  transition: 0.3s all ease-in-out;
+  cursor: pointer;
+}
+
+.chat__board-form-button:hover {
+  background: #94dbff;
+}
+
+.chat__board-form-button:active {
+  background: #94dbff;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px inset, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px inset;
+}
